@@ -1,0 +1,13 @@
+.box {
+  width: 20%;
+  height: 300px;
+  background-color: bisque;
+  margin: 1%;
+  font-size: medium;
+}
+.proimg {
+  width: 30%;
+}
+.proimg:hover {
+  width: 50%;
+}
