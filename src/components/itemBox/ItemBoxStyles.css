@@ -1,13 +1,92 @@
 .box {
-  width: 20%;
-  height: 300px;
-  background-color: bisque;
-  margin: 1%;
+  margin-top: 100px;
   font-size: medium;
+}
+
+.cardstyle {
+  margin-left: 0px !important;
+  margin-bottom: 20px;
 }
 .proimg {
   width: 30%;
 }
 .proimg:hover {
   width: 50%;
+}
+.logo-img {
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+}
+.logo-img:hover {
+  width: 70%;
+}
+
+.navbarstyle {
+  font-size: 20px !important;
+  text-align: center !important;
+  margin-top: 45px;
+ 
+}
+
+.navbarItem:hover {
+  width: 15% !important;
+}
+.navbarLink {
+  color: rgb(216, 117, 46);
+}
+.d-block {
+  width: 300px !important;
+  height: 350px !important;
+  background-image: linear-gradient(rgba(48, 47, 47, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Images/Vegetables.jpg) !important;
+}
+.carousal-item {
+  background-image: linear-gradient(rgba(48, 47, 47, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Images/Vegetables.jpg);
+}
+
+.carousal-caption {
+  color: black;
+  font-weight: bold;
+}
+
+.footerstyles {
+  font-size: 15px !important;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.social-icons:hover {
+  width: 30px !important;
+}
+
+.login-parent {
+  background-color: rgb(4, 95, 95);
+  margin-top: 20vh;
+  height: 70vh;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 10%;
+  display: flex;
+}
+
+.login-name {
+  background-color: rgb(24, 169, 189);
+  height: 70vh;
+  width: 40%;
+  display: flex;
+  color: rgb(245, 246, 247);
+}
+.title {
+  margin: auto;
+}
+
+.login-form {
+  width: 60%;
+  height: 70vh;
+  border: 5px solid #1ddfcb;
+  padding: 7vh;
+  color: aqua;
 }
